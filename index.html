@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="node.js"></script>
+
+</head>
+
+<body>
+    <section>
+        <div class="container">
+
+            <div class="form-box">
+                <h2>TEMPERATURE CONVERTER</h2>
+                <div class="form-value">
+                    <form>
+                        <div class="inputbox">
+                            <label for="value">Enter the value :</label>
+                            <input type="number" value="" id="box1" required>
+                        </div>
+                        <div class="inputbox">
+                            <label for="option">Convert to?</label>
+                            <select id="box2" required>
+                                <option value="c">Celsius</option>
+                                <option value="f">Fahrenheit</option>
+                            </select>
+                        </div>
+
+
+                        <div class="btn">
+                            <input type="button" value="CONVERT" class="button" onclick="tempconvert()">
+                        </div>
+                        <div class="inputbox">
+                            <label for="value">Result :</label>
+                            <input type="number,text" value="" id="box3">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
